@@ -781,13 +781,16 @@ footer h3 {
     /* Portfolio Section */
 
     .portfolio{
-        margin-top: 10vh;
+        margin-top: 5vh;
+        overflow: hidden;
+        height: 150vh;
     }
 
     .work-list {
         flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
         margin-top: 0.5em;
-        width: 100%;
     }
 
     .portfolio-main h1 {
@@ -799,7 +802,6 @@ footer h3 {
     .portfolio-main .work img {
         height: 40vh;
         width: 90%;
-        margin: auto;
         margin-left: 0.2em;
     }
 
@@ -810,9 +812,10 @@ footer h3 {
     /* Contact Section*/
 
     .contact-main {
-        margin-top: 50vh;
+        margin-top: -2vh;
         flex-direction: column !important;
-        overflow: hidden;
+        overflow: hidden !important;
+        height: 120vh;
     }
 
     .contact-main .contact-sci {
